@@ -80,3 +80,30 @@ Pendekatan yang digunakan memiliki keunggulan:
     Penggunaan resource memori minimal
 
     Kemampuan menangani bilangan besar tanpa overflow
+
+
+PROGRAM FIBONACI
+
+    Input: Membaca integer n dari user
+
+    Validasi: Jika n < 0, program berhenti
+
+    Output Jumlah Elemen: Cetak n+1 (total bilangan yang akan dicetak)
+
+    Base Cases:
+
+        Jika n >= 0, cetak 0 (Fibonacci ke-0)
+
+        Jika n >= 1, cetak 1 (Fibonacci ke-1)
+
+    Perhitungan Fibonacci:
+
+        Inisialisasi a = 0, b = 1
+
+        Untuk i dari 2 hingga n:
+
+            next = a + b
+
+            Cetak next
+
+            Update: a, b = b, next
